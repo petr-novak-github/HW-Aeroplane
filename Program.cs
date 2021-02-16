@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Aeroplane
 {
     interface IGetWeight
-    {          //nededi z tridy Shape, ale musi mit metodu Perimeter = interface
+    {         
         double GetWeight();
     }
 
@@ -69,8 +69,8 @@ namespace Aeroplane
     {
 
         private string type;
+       
         //getters and setters and constructors
-
         #region
 
 
@@ -101,7 +101,6 @@ namespace Aeroplane
 
             return w;
         }
-
     }
 
     class Thing:IGetWeight
@@ -109,6 +108,7 @@ namespace Aeroplane
         private double height;
         private double length;
         private double width;
+       
         //getters and setters and constructors
         #region
         public double GetHeight()
@@ -150,14 +150,11 @@ namespace Aeroplane
 
         #endregion
 
-
         public double GetWeight()
         {
            return height * length * width * 2;
         }
     }
-
-
 
     class TestAeroplane
     {
@@ -165,15 +162,10 @@ namespace Aeroplane
         {
 
             var p1 = new Person("male", 184, 38);
-
             var a1 = new Animal("savci");
-
             var t1 = new Thing(50, 50, 50);
-
             List<IGetWeight> nakladLetadla = new List<IGetWeight>() {p1, a1, t1 };
-
-            double celkovaHmotnost = 0;
-           
+            double celkovaHmotnost = 0;        
             foreach (IGetWeight item in nakladLetadla)
             {
                 celkovaHmotnost += item.GetWeight();
@@ -182,7 +174,6 @@ namespace Aeroplane
 
             Console.WriteLine($"Celkova hmotnost je: {celkovaHmotnost}");
             Console.ReadLine();
-
         }
     }
 }

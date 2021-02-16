@@ -1,0 +1,7 @@
+C:\Users\petr8\Desktop\cSharpRekavalifikace\21-ucim-se-2021-02-16\01-HW-4-01-Aeroplane\stuff\Aeroplane\bin\Debug\Aeroplane.exe.config
+C:\Users\petr8\Desktop\cSharpRekavalifikace\21-ucim-se-2021-02-16\01-HW-4-01-Aeroplane\stuff\Aeroplane\bin\Debug\Aeroplane.exe
+C:\Users\petr8\Desktop\cSharpRekavalifikace\21-ucim-se-2021-02-16\01-HW-4-01-Aeroplane\stuff\Aeroplane\bin\Debug\Aeroplane.pdb
+C:\Users\petr8\Desktop\cSharpRekavalifikace\21-ucim-se-2021-02-16\01-HW-4-01-Aeroplane\stuff\Aeroplane\obj\Debug\Aeroplane.csprojAssemblyReference.cache
+C:\Users\petr8\Desktop\cSharpRekavalifikace\21-ucim-se-2021-02-16\01-HW-4-01-Aeroplane\stuff\Aeroplane\obj\Debug\Aeroplane.csproj.CoreCompileInputs.cache
+C:\Users\petr8\Desktop\cSharpRekavalifikace\21-ucim-se-2021-02-16\01-HW-4-01-Aeroplane\stuff\Aeroplane\obj\Debug\Aeroplane.exe
+C:\Users\petr8\Desktop\cSharpRekavalifikace\21-ucim-se-2021-02-16\01-HW-4-01-Aeroplane\stuff\Aeroplane\obj\Debug\Aeroplane.pdb
